@@ -5,10 +5,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { MdOutlineCurrencyRupee } from "react-icons/md";
 import { useDispatch } from 'react-redux';
-import { ADD_DATA } from "./Action";
+import { ADD_DATA } from "../Redux/Action.jsx";
 import { Link } from 'react-router-dom';
-import Header from '../Cart Details/Header.jsx';
-import Sidebar from '../Common/Sidebar.jsx';
+import Header from '../Ecart details/Header.jsx';
+// import Sidebar from '../Common/Sidebar.jsx';
 
 
 export const Cardsdata = [
@@ -143,7 +143,7 @@ const Ecart = () => {
 
     return (
         <>
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Header />
             <div className='container mt-3'>
                 <Row style={{ display: "flex", alignItems: "center", justifyContect: "center", width: "auto" }}>

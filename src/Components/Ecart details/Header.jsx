@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from 'react'
-import "../styling/Header.css";
+import "../Styles/Header.css";
 import { MdOutlineCurrencyRupee } from "react-icons/md";
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -19,7 +19,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ImBin } from "react-icons/im";
 // import { RM_DATA } from '../Cart Details/Action.jsx';
 import { PiUserSwitchFill } from "react-icons/pi";
-import new_user from "../images/new_user.png";
+import new_user from "../Images/new_user.png";
 import { SiIfood } from "react-icons/si";
 import { ImSpoonKnife } from "react-icons/im";
 
