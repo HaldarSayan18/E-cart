@@ -1,0 +1,15 @@
+body {
+    margin-top: 110px;
+}
+
+.verify-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* file- NewPasswd.jsx */
+.reset-link {
+    text-decoration: none;
+    color: black;
+}

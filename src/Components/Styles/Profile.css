@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-body{
+    border: 3px solid goldenrod;
+    margin: 0px;
+    height: 100%;
+    width: 500px;
+    padding: 30px;
+}
+
+.profile-browseimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.profile-upld {
+    display: flex;
+    align-items: center;
+    margin-top: -85px;
+    margin-right: 85%;
+}
+
+/* .profile-browseimg .profile-uploadBtn {
+    margin: 0;
+    position: relative;
+    background-color: #d9d9d9;
+} */
+
+.profile-uploadBtn img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-uploadBtn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px dashed #ccc;
+}
+
+.form-container{
+    margin-top: 100px;
+}
+
+.edit-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}

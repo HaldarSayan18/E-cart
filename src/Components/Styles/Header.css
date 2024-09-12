@@ -1,0 +1,47 @@
+
+.header-home-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: larger;
+}
+.header-home-link:hover{
+    color: rgb(160, 255, 228);
+}
+
+.header-add-link{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.header-add-link:hover{
+    color: rgb(160, 255, 228);
+}
+
+.header-search-link{
+    height: 50px;
+    width: auto;
+    padding-left:10px;
+    border:2px solid rgb(240, 255, 71); border-radius:10px;
+    background:transparent;
+    outline:none;
+    color:white;
+    margin-right: 50px;
+}
+.header-search-link::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.glow-text {
+    font-size: 20px; /* Adjust the size as needed */
+    color: #cb1e1e; /* Text color */
+    text-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 20px #c1d811, 
+        0 0 30px #ff00ff, 
+        0 0 40px #ff00ff9e, 
+        0 0 55px #ff00ff, 
+        0 0 75px #ff00ff;
+}

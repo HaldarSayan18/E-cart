@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgba(0, 0, 0, 0.153); */
+    
+}
+.createAcc-body{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("./org.png"); */
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.RegAcc {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 50px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    display: flex;
+    margin: auto;
+    color: white;
+}
+h3:hover {
+    color: blue;
+    text-decoration: aqua;
+}
+
+.reg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+.sub-container {
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.reg-name-div {
+    /* margin-left: 0px; */
+    text-align: left;
+    color: rgb(22, 112, 215);
+    font-weight: 600;
+    font-size: 17px;
+}
+.form-reg{
+    border: 2px solid rgba(22, 4, 54, 0.517);
+    padding: 25px;
+    background-color: rgba(147, 241, 201, 0.077);
+    border-radius: 2%;
+}
+
+.formControl-reg {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.704);
+    background-color: transparent;
+    border: 1px solid rgba(200, 11, 11, 0.327);
+}
+
+.icons {
+    padding-left: 3px;
+    align-items: center;
+}
+
+input{
+    margin-bottom: -5px;
+}
+.input-inline {
+    height: 35px;
+    border: none;
+    outline: none;
+    width: auto;
+    padding-left: 4px;
+    padding-right: 200px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.input-inline::placeholder {
+    color: rgba(0, 0, 1, 0.526);
+}
+
+.phone-input {
+    /* border-radius: 3px; */
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: transparent;
+}
+.PhoneInputCountrySelect {
+    background: transparent;
+    border: 1px solid rgba(200, 11, 11, 0.327);
+    height: 35px;
+    width: 55px;
+    margin-right: 1px;
+    border-radius: 3px;
+}
+
+.PhoneInputCountryIconImg {
+    display: none;
+    height: 55px;
+    width: 60px;
+}
+
+.PhoneInputInput {
+    background: transparent;
+    border: 1px solid rgba(200, 11, 11, 0.327);
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    outline:none
+    /* margin-top: -55px; */
+}
+
+.PhoneInputInput::placeholder {
+    color: rgba(0, 0, 1, 0.526);
+    text-align: left;
+}
+
+.footer {
+    margin-left: 10px;
+    color: rgb(13, 63, 156);
+    font-weight: 700;
+}
+
+.btn-reg {
+    width: -webkit-fill-available;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.btn-reg:hover{
+    background-color: aquamarine;
+}
+
+.formError {
+    color: red;
+}
+
+.log {
+    color: rgba(74, 12, 60, 0.944);
+    font-size: 20px;
+}
+
+.set-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+
+.browseimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: absolute;
+    /* top: -50px; */
+    width: 100%;
+}
+
+.upld {
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.browseimg .uploadBtn {
+    margin: 0;
+    position: relative;
+    background-color: #d9d9d9;
+}
+
+.uploadBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* / border-radius: 100px;/ */
+}
+
+.uploadBtn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px dashed #ccc;
+}
+
+.account-section {
+    color: rgb(13, 63, 156);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
